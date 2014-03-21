@@ -1,5 +1,5 @@
 class PrimeNumber
-  def isPrime?(number)
+  def prime_number?(number)
     true
   end
 end
