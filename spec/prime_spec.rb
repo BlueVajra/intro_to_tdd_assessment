@@ -9,4 +9,12 @@ describe PrimeNumber do
 
     expect(actual).to eq expected
   end
+  it "returns false when sent the number 10" do
+
+    this_number = PrimeNumber.new
+    actual = this_number.prime_number?(10)
+    expected = false
+
+    expect(actual).to eq expected
+  end
 end

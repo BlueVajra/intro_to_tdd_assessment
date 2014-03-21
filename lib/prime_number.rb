@@ -1,5 +1,7 @@
+require 'prime'
+
 class PrimeNumber
   def prime_number?(number)
-    true
+    Prime.prime?(number)
   end
 end
